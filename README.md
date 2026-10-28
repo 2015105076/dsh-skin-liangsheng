@@ -4,6 +4,21 @@
 
 > 非官方作品，与 DeepSeek / 深度求索无关。立绘是原创矢量插画，不是照片；详见 [NOTICE](NOTICE)。
 
+## 效果
+
+![梁圣皮肤：玄墨鎏金配色、推理等级滑杆拖到 MAX、圣言飘带与右下角印章](docs/screenshots/01-composer-max.png)
+
+模型选择器右侧就是可拖拽的推理等级滑杆（图中已拖到 MAX），输入框下方是 9 秒轮换的圣言飘带，画面右下角是淡金「梁圣」印章水印。
+
+<details>
+<summary>更多截图：圣言轮播</summary>
+
+![圣言飘带轮播到「深度求索，久久为功」](docs/screenshots/02-sage-line-a.png)
+
+![圣言飘带轮播到「梁圣恩情还不完」](docs/screenshots/03-sage-line-b.png)
+
+</details>
+
 ## 特性
 
 - **玄墨鎏金主题**：通过 `ctx.theme.overrideTokens` 叠一层颜色令牌，亮色是暖宣纸底 + 古金强调，暗色是玄墨底 + 鎏金强调，跟随系统/手动明暗切换，不改动基础主题。
