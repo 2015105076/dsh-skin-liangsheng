@@ -1,0 +1,31 @@
+{
+  "name": "dsh-skin-liangsheng",
+  "version": "1.2.0",
+  "description": "梁圣皮肤：为 DeepSeek Harness 提供玄墨鎏金主题、新会话立绘，以及可拖拽的推理等级滑杆。",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2015105076/dsh-skin-liangsheng.git"
+  },
+  "homepage": "https://github.com/2015105076/dsh-skin-liangsheng#readme",
+  "bugs": {
+    "url": "https://github.com/2015105076/dsh-skin-liangsheng/issues"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "client.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "LICENSE", "NOTICE"],
+  "keywords": ["dsh", "deepseek-harness", "cordis", "theme", "skin"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  }
+}

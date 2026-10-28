@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#12100a"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="#D9A63C" stroke-width="2.4"/>
+  <rect x="7" y="7" width="50" height="50" rx="10" fill="none" stroke="#D9A63C" stroke-opacity="0.45" stroke-width="0.9"/>
+  <text x="32" y="41" text-anchor="middle" font-family="STKaiti, KaiTi, Songti SC, SimSun, serif" font-size="30" font-weight="600" fill="#EBCB86">圣</text>
+</svg>
